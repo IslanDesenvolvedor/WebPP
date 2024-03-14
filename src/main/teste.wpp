@@ -1,0 +1,27 @@
+interface exemplo {
+
+    @Doctype("html")
+
+    html {
+        lang = "en"
+        head {
+            meta {
+                charset = "UTF-8"
+                name = "author", content = "Islan"
+            }
+
+            title = "Título do Exemplo"
+        }
+
+        body {
+
+            h1 = "Título de Nível 1"
+
+            p = "Exemplo de parágrafo"
+
+            ul {
+                li = "Item 1", "Item 2", "Item 3"
+            }
+        }
+    }
+}
